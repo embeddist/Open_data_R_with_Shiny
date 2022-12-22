@@ -25,7 +25,7 @@ datelist[1:3]          # 확인
 
 #---# [4단계: 인증키 입력하기]
 
-service_key <- ""  # 인증키 입력
+service_key <- "HvTBf%2F2cyWpn%2BPox7iilunphUzw0iMnJc1IhQbSy82%2F0uG23bS8L1PmDbDSL1TSYaSPtRujUQAtzaWSap0PPBw%3D%3D"  # 인증키 입력
 
 
 #--------------------------------------------------
@@ -117,7 +117,6 @@ for(i in 1:length(url_list)){   # 요청목록(url_list) 반복
   msg <- paste0("[", i,"/",length(url_list), "] 수집한 데이터를 [", path,"]에 저장 합니다.") # 알림 메시지
   cat(msg, "\n\n")
 }   # 바깥쪽 반복문 종료
-  
 
 #----------
 # 3-4 통합
